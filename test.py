@@ -8,5 +8,4 @@ total_earned = lambda row: (row['hours_worked'] - 40) * row['hourly_wage'] * 1.5
 
 df['total_earned'] = df.apply(total_earned, axis=1)
 
-print(df
-      )
+print(df)
